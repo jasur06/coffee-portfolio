@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+} 
+ul,p,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/* header section */
+.header {
+    padding: 50px 0; 
+    position: fixed;
+    top: 0;
+    left: 200px;
+}
+
+.container {
+    width: 1148px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.menu-info {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+
+.nav-link {
+    color: #afa2a2;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%; 
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.nav-link:hover {
+    color: rgb(231, 78, 22);
+    font-size: 700;
+}
+
+.header-search {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+/* / header section  */
+
+/* maen */
+.hero-section {
+    /* height: 100vh;  */
+    background-image: url("../images/background-img.png");
+    background-size: 100% 100vh;
+    background-size: cover; 
+    background-repeat: no-repeat;
+
+}
+
+.hero-info {
+    padding-top: 200px;
+}
+
+.hero-title {
+    margin-bottom: 26px;
+    color: #FFFf;
+    font-family: Josefin Sans;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+}
+
+.paragraph {
+    margin-bottom: px;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 20px;
+}
+
+.hero-btn {
+    margin: 45px;
+    padding: 15px 35px;
+    border-radius: 5px;
+    background-color: rgb(231, 78, 22);
+    color: #FFF;
+    border: none;
+}
+
+.hero-btn:hover {
+    opacity: 0.5;
+} 
+
+.hero-btn:active{
+   background-color: darkgoldenrod;
+   border: none;
+   border: 1px solid blanchedalmond;
+} 
+/* / maen  */
+
+/* blog */
+.blog-section {
+   margin-top: 140px;
+}
+
+.blog-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Josefin Sans;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 130%; 
+}
+
+.blog-paragraph {
+    color: #afa2a2;
+}
+
+.blog-title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.blog-item__info {
+    margin-top: 30px;
+}
+
+.dollor{
+    margin-top: 15;
+    font-family: Josefin Sans;
+    font-size: 14px;
+}
+
+.blog-heading {
+   margin-top: 10px;
+   font-family: Josefin Sans;
+   font-size: 32px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 130%; 
+}
+
+.blog-paragraph {
+   margin-top: 15px;
+   color: #afa2a2;
+   font-family: Open Sans;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 160%;
+}
+
+.blog-btn {
+    margin-top: 20px;
+    padding: 15px 30px;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background-color: #FF4B32;
+    color: aliceblue;
+    border-radius: 10px;
+    border: none;
+}
+
+.blog-btn:hover {
+    background-color: blue;
+    opacity: 0.6;
+}
+
+.blog-btn:active {
+    border: 1px solid blanchedalmond;
+}
+/* /blog */
+
+/* gallery */
+.photo-head {
+    margin-top: 145px;
+    text-align: center;
+}
+
+.phota-heading {
+    font-family: Josefin Sans;
+    font-size: 43px;
+}
+
+.phota-title {
+    color: #afa2a2;
+    font-family: Open Sans;
+    font-size: 18px;
+}
+
+.photo-gallery {
+    margin-top: 60px;
+}
+
+.gallery-btn {
+    margin-top: 75px;
+}
+
+.gallery-hr {
+    width: 460px;
+    height: 2px;
+}
+
+.gallery-prgph {
+    text-align: center;
+    color: #FF4B32;
+    font-family: Open Sans;
+    font-size: 18px;
+}
+/* /gallery */
+
+/* call section */
+.call-section {
+    margin-top: 140px;
+    height: 650px;
+    flex-shrink: 0;
+    background-color: black;
+}
+
+.follow {
+    margin-top: 100px;
+    color: #FF4B32;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+}
+
+.call-prgh {
+    color: #FFF;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 43px;
+}
+
+.call-info {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+}
+/* /call section*/
